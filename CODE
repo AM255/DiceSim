@@ -1,0 +1,8 @@
+#DiceSim
+import random
+keep_going = True
+while keep_going:
+    num = (random.randint(1,6))
+    print (num)
+    answer = input("Keep going?")
+    keep_going = (answer == "")
